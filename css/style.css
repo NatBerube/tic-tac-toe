@@ -1,0 +1,62 @@
+h1 {
+    color: purple;
+    text-align: center;
+}
+
+.background {
+    background-color: black;
+}
+.container {
+    background-color: white;
+    padding: 0 0 5px 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+
+.tile {
+    border: 1px solid black;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    cursor: pointer;
+}
+
+.table {
+    color: white;
+    border-style: solid;
+    align-items: right;
+}
+.jouer {
+    color: #f2cf1d;
+    border-style: solid;
+    font-style: bold;
+}
+
+.t-s {
+    color: #f2cf1d;
+}
+
+.display {
+    color: #f2cf1d;
+}
+
+.score {
+    color: #f2cf1d;
+    border-style: solid;
+}
+.reset {
+    text-align: center;
+    color: #f2cf1d;
+    cursor: pointer;
+}
+
+.controls {
+    margin: 2px 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
